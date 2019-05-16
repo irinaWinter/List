@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Список дел</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script src="script.js"></script>
+
+</head>
+<body>
+	<div class="fixed-container">
+		<div class="col-1">
+			<h2>Список дел:</h2>
+			<p class="empty">Список дел пуст...</p>
+			<div id="todo-list-box">
+			</div>	
+		</div>
+
+		<div class="col-1">
+			<h2>Добавить новое дело</h2>
+			<div class="create-task">
+				<p class="command"><span>*</span> Название</p>
+				<div class="error error-name">Введите название задачи</div>
+				<div class="error error-repeat">Такая задача уже существует</div>
+				<input type="text" name="name" id="input-name" maxlength="30">
+				<p class="command"><span>*</span> Описание</p>
+				<div class="error error-description">Введите описание задачи</div>
+				<textarea class="input-description"></textarea>
+				<button id="add">Добавить дело</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

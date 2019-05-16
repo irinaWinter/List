@@ -1,0 +1,155 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 960px;
+	font-family: Arial;
+	background-color: #f5f5f5;
+}
+
+.list-item {
+
+	margin: 0 0 20px 0;
+}
+
+.fixed-container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.col-1 {
+	display: inline-block;
+	width: 469px;
+	float: right;
+
+}
+
+.col-1:first-child {
+	float: left;
+}
+
+
+h2 {
+	font-size: 20px;
+	margin: 61px 0 28px 0;
+}
+
+.empty {
+	margin: 50px 0 0 0;
+	font-size: 16px;
+	color: #8993ad;
+}
+
+.task-name {
+	padding: 16px 17px 15px 20px;
+	border-bottom: 1px solid #f7f7f7;
+	background-color: #fff;
+}
+
+h3 {
+	max-width: 370px;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	font-weight: normal;
+	display: inline-block;
+}
+
+.delete {
+	width: 9px;
+	height: 9px;
+	margin: 0 0 0 10px;
+	padding: 0;
+	display: inline-block;
+	background-image: url('images/clear-button.png');
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border: none;
+	outline: none;
+}
+
+.slide {
+	width: 6px;
+	height: 5px;
+	display: inline-block;
+	float: right;
+	margin: 9px 0 0 0;
+	background-image: url('images/arrow.png');
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	padding: 0;
+}
+
+.slide-rotate {
+	transform: rotate(180deg);
+	margin: 7px 0 0 0;
+}
+
+.description {
+	height: 70px;
+	padding: 7px 40px 7px 20px;
+	background-color: #fff;
+	font-size: 14px;
+	color: #8993ad;
+}
+
+.create-task {
+	background-color: #fff;
+	padding: 30px 40px 35px 39px;
+}
+
+.command {
+	font-size: 14px;
+	color: #8993ad;
+	margin: 0 0 7px 0;
+	display: inline-block;
+} 
+
+p span {
+	margin: 0 3px 0 0;
+}
+
+input {
+	width: 369px;
+	height: 43px;
+	border: 1px solid #ebebeb;
+	padding: 0 10px;
+	margin: 0 0 29px 0;
+	background-color: #fcfcfc;
+	font-size: 15px;
+}
+
+.input-description {
+	width: 369px;
+	height: 199px;
+	resize: none;
+	background-color: #fcfcfc;
+	border: 1px solid #f6f6f6;
+	padding: 13px 10px;
+	font-size: 16px;
+}
+
+#add {
+	margin: 27px 0 0 0;
+	padding: 0;
+	width: 224px;
+	height: 55px;
+	background-color: #2174fd;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+}
+
+.error {
+	display: none;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border: 1px solid #f5c6cb;
+	border-radius: 3px;
+	background-color: #f8d7da;
+	color: #722e47;
+	font-size: 15px;
+}
